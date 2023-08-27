@@ -8,15 +8,15 @@ export function HeroSection() {
             <div className="hero-section-grid">
                 <div className="hero-section-text">
                     <h1>Register now, Vote later.</h1>
-                    <div className="hero-section-message">
-                        I invite you to continue the movement and discussion with us by joining,
+                    {/* <div className="hero-section-message"> */}
+                        <p>"I invite you to continue the movement and discussion with us by joining,
                         Mark Your Presence organisation.
-                        Let's keep talking about these issues and supporting one another. Everyone is welcomed.
-                    </div>
-                    <div className="hero-section-image">
-                        <img src={People} alt="Hero section" width={450}/>
-                    </div>
+                        Let's keep talking about these issues and supporting one another. Everyone is welcomed."</p>
+                        <p>- Chaitanya Prabhu<br/>
+                        Founder, Mark Your Presence</p>
+                    {/* </div> */}
                 </div>
+                <img className="hero-section-image" src={People} alt="Hero section"/>
             </div>
         </div>
     )
