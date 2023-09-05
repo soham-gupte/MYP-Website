@@ -1,9 +1,11 @@
 import "./HeroStyles.css";
 import People from "./people.jpg";
+import { Countdown } from "./Countdown";
 
 export function HeroSection() {
     return (
         <div className="hero-section">
+            <Countdown/>
             {/* Hero Section */}
             <div className="hero-section-grid">
                 <div className="hero-section-text">

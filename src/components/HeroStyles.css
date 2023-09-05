@@ -9,8 +9,17 @@ body {
     color: white;
 }
 
+.hero-section-text h1 {
+    padding-bottom: 1rem;
+}
+
+.hero-section-text p {
+    padding-top: 1.5rem;
+}
+
 .hero-section-image {
     width: 100%;
+    padding-top: 2.5rem;
 }
 
 .hero-section-grid {
