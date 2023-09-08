@@ -11,6 +11,8 @@ import { IoClose } from 'react-icons/io5'
 //   }
 // }
 
+// REMOVE THE LOGO, REPLACE IT!
+
 export function Navbar() {
     const [click, setClick] = useState(true);
     const handleClick = () => {

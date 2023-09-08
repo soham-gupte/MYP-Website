@@ -8,14 +8,7 @@ body {
     font-size: 100%;
 }
 
-.timer-container {
-    /* No need to add background */
-    /* width: 100vw; */
-    /* height: 100vh;  */
-}
-
-.timer {
-    
+.timer {  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,10 +28,6 @@ h2 {
     margin-bottom: 0.5em;
 }
 
-.timer div:first-child p {
-    /* Nothing to add here */
-}
-
 .timer div:last-child {
     border: 1px solid;
     border-radius: 3px;
@@ -50,7 +39,7 @@ h2 {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-section p:first-child, .timer div:last-child span {
+.countdown-sec p:first-child, .timer div:last-child span {
     font-size: 1.7em;
 }
 
@@ -60,5 +49,4 @@ section p:first-child, .timer div:last-child span {
         margin-right: 2em;
         padding: 3em 1em;
     }
-    
 }
