@@ -1,13 +1,38 @@
 import "./AboutUsStyles.css";
 import who_we_are from "./myp-who_we_are.png"
+import ScrollReveal from "scrollreveal";
+import { useEffect } from "react";
 
 // Make this responsive!
 export function AboutUs() {
+
+    useEffect(() => {
+        const sr = ScrollReveal({
+            delay: 500,            // Delay between elements in milliseconds
+            distance: '60px',      // Distance to start the animation (from bottom/top/left/right)
+            origin: 'bottom',      // Direction from which the animation starts ('bottom', 'top', 'left', 'right')
+            duration: 1000,        // Animation duration in milliseconds
+            easing: 'ease-out',    // Easing function
+            reset: true,  
+        });
+        sr.reveal(".main-title", {delay: 500, origin: "left"});
+        sr.reveal(".who-we-are .image, .text-box3", {delay: 500, origin: "bottom"});
+        sr.reveal(".text-box", {delay: 500, origin: "right"})
+        sr.reveal(".our-story .image", {delay: 500, origin: "top"})
+      }, []);
+    
+    
+
+    // ScrollReveal().reveal(".main-title", {delay: 200, origin: "left"});
+    // ScrollReveal().reveal(".who-we-are .image", {delay: 200, origin: "bottom"});
+    // ScrollReveal().reveal(".our-story .image", {delay: 200, origin: "bottom"});
+    
+
     return (
         <div className="about-us">
             <section className="who-we-are">
                 <div className="container">
-                    <h2 className="main-title">Who we are</h2>
+                    <h2 className="main-title">Who We Are</h2>
                     <div className="content">
                         <div className="image">
                             <img src={who_we_are} alt="Who we are" />
@@ -44,8 +69,8 @@ export function AboutUs() {
                         <div className="image">
                             <img src={who_we_are} alt="Our story"></img>
                         </div>
-                        <div className="our-story-info">
-                            
+                        <div className="text-box3">
+                            <p>Mark Your Presence was founded on the pillars of change and commitment to democracy to bring about a political order that is participatory and progresssive. Chaitanya Prabhu founded the organisation in 2018 as an ode to his 100 year old grandfather’s commitment to practise the right that people of this country lay their lives for. He envisioned an organisation that would remind young people of the journey we as a nation took to make this tryst with democracy as our destiny.</p>
                         </div>
                     </div>
                 </div>
