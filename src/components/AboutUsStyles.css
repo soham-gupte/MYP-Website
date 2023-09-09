@@ -62,7 +62,7 @@
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
     padding: 40px;
-    max-width: 47.431vw    ;
+    max-width: 47.431vw;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     /* transform: translate(-80px, 50px); */
@@ -100,4 +100,38 @@
 .our-story-info {
     /* width: 700px; */
     margin-left: 200px;
+}
+
+@media screen and (max-width: 850px) {
+
+    .content .image {
+        /* position: relative; */
+        /* overflow: hidden; */
+        width: 60vw;
+        height: 42vw;
+        /* z-index: 80; */
+        /* margin-top: 50px; */
+    }
+
+    .content {
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+    
+    .content .text-box {
+        z-index: 85;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(20px);
+        padding: 40px;
+        max-width: 80vw    ;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        /* transform: translate(-80px, 50px); */
+        font-size: 1.1rem;
+        /* margin: 0px 0; */
+    }
+
+    .content .img-1 {
+        margin-top: 150px;
+    }
 }
