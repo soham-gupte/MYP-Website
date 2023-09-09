@@ -132,6 +132,12 @@
     }
 
     .content .img-1 {
-        margin-top: 150px;
+        position: absolute;
+        margin-top: -250px;
     }
+
+    .content .text-box2 {
+        margin-top: 400px;
+    }
+    
 }
