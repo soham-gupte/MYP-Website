@@ -10,7 +10,7 @@ export function Countdown() {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate = new Date('September 11, 2023 00:00:00').getTime();
+        const countdownDate = new Date('May 27, 2024 00:00:00').getTime();
         interval = setInterval(() => {
             const now = new Date().getTime();
             const distance = countdownDate - now;

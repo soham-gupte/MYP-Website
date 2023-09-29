@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MenuData } from "./MenuData";
 import "./NavbarStyles.css";
-import logo from "./myplogo.jpeg"
+import logo from "./myplogo.png"
 import { FaBars } from 'react-icons/fa'
 import { IoClose } from 'react-icons/io5'
 

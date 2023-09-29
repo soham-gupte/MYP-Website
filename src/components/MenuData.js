@@ -21,12 +21,12 @@ export const MenuData = [
         cName: "nav-links",
     },
     {
-        title: "Resources",
+        title: "Join Us",
         url: "#",
         cName: "nav-links",
     },
     {
-        title: "Shop",
+        title: "Resources/Shop",
         url: "#",
         cName: "nav-links",
     },
