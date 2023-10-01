@@ -1,0 +1,78 @@
+.know-your-right {
+    margin-top: 30px;
+    padding: 1rem 40px;
+    color: white;
+}
+
+.know-your-right h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.kyr-content-grid {
+    margin: 1.5rem 1.5rem;
+    border-radius: 2.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    color: white;
+    display: grid;
+    background-color: rgb(123, 65, 195);
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 2rem;
+}
+
+.kyr-content {
+    padding: 0 3rem;
+    border-right: 1px solid #ccc;
+}
+
+.kyr-content:last-child {
+    border-right: none;
+}
+
+.kyr-content h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.kyr-content p {
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.kyr-faq {
+    background-color: rgb(5, 30, 84);
+    padding: 2rem 4rem;
+    border-radius: 2.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.kyr-faq h2 {
+    text-align: center;
+}
+
+.kyr-faq a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.kyr-faq p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    /* letter-spacing: rem; */
+    word-spacing: 0.2rem;
+}
+
+@media screen and (max-width: 850px) {
+    .kyr-content-grid {
+        grid-template-columns: 1fr;
+    }
+    .kyr-content {
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+        padding: 2rem 0;
+    }
+    .kyr-content:last-child {
+        border-bottom: none;
+    }
+}
