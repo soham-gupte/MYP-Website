@@ -1,12 +1,12 @@
 export const MenuData = [
     {
         title: "About Us",
-        url: "#",
+        url: "/",
         cName: "nav-links",
     },
     {
         title: "Know your Right",
-        url: "#",
+        url: "/know-your-right",
         cName: "nav-links",
         
     },
