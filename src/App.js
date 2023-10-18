@@ -12,7 +12,7 @@ function App() {
       {/* <HeroSection/> */}
       {/* <AboutUs/> */}
       {/* <KnowYourRight/> */}
-      <Navbar />
+      {/* <Navbar /> */}
       <Router>
         <Routes>
           <Route path='/' element={
