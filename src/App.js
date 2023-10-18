@@ -8,7 +8,7 @@ import { KnowYourRight } from './components/KnowYourRight';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/> */}
+      <Navbar/>
       {/* <HeroSection/> */}
       {/* <AboutUs/> */}
       {/* <KnowYourRight/> */}
