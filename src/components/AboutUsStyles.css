@@ -150,25 +150,30 @@
 
 @media screen and (max-width: 850px) {
 
+    .about-us {
+        width: 100%;
+    }
+
     .content .image {
-        /* position: relative; */
-        /* overflow: hidden; */
         width: 60vw;
         height: 42vw;
-        /* z-index: 80; */
-        /* margin-top: 50px; */
     }
 
     .content {
+        padding-top: 0rem;
         flex-direction: column;
-        padding-bottom: 2rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .content p {
+        width: 100%;
     }
     
     .content .text-box {
         z-index: 85;
         background: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(20px);
-        padding: 40px;
+        padding: 30px;
         max-width: 80vw    ;
         border: 1px solid rgba(255, 255, 255, 0.2);
         border-radius: 10px;
@@ -176,21 +181,41 @@
         font-size: 0.6rem;
         /* margin: 0px 0; */
     }
+    
+    .our-story {
+        padding: 2rem 1rem;
+    }
 
     .content .img-1 {
         position: absolute;
-        margin-top: -250px;
+        margin-top: -90px;
     }
 
     .content .text-box2 {
-        margin-top: 400px;
+        margin-top: 300px;
         font-size: 0.6rem;
     }
 
     .content .text-box3 {
-        /* width: 10000px; */
         padding: 40px 0;
         font-size: 0.6rem;
+    }
+
+    .text-box3 {
+        width: 100%;
+    }
+
+    .text-box4 {
+        font-size: 0.7rem;
+    }
+
+    .text-box5 p, li{
+        font-size: 0.7rem;
+    }
+
+    .about-us, .who-we-are, .mission, .organization-structure, .our-story {
+        animation: none !important;
+        transition: none !important;
     }
     
 }

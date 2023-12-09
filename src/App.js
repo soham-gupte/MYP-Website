@@ -8,7 +8,7 @@ import { KnowYourRight } from './components/KnowYourRight';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       {/* <HeroSection/> */}
       {/* <AboutUs/> */}
       {/* <KnowYourRight/> */}
@@ -16,13 +16,13 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={
-            <div>
+            <>
               <HeroSection />
               <AboutUs />
-            </div>
+            </>
           } />
 
-          <Route path='/know-your-right' element={<KnowYourRight/>} />
+          <Route path='/know-your-right' element={<KnowYourRight />} />
         </Routes>
       </Router>
     </div>

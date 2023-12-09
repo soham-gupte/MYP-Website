@@ -86,9 +86,11 @@
 
 
 @media screen and (max-width: 850px) {
+    
     .NavbarItems {
         z-index: 99;
         font-size: 1.2rem;
+        width: 100%;
     }
 
     .logo {

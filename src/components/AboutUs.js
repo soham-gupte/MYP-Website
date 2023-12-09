@@ -10,18 +10,21 @@ import { useEffect } from "react";
 export function AboutUs() {
 
     useEffect(() => {
-        const sr = ScrollReveal({
-            delay: 500,            // Delay between elements in milliseconds
-            distance: '60px',      // Distance to start the animation (from bottom/top/left/right)
-            origin: 'bottom',      // Direction from which the animation starts ('bottom', 'top', 'left', 'right')
-            duration: 1000,        // Animation duration in milliseconds
-            easing: 'ease-out',    // Easing function
-            reset: true,
-        });
-        sr.reveal(".main-title", { delay: 500, origin: "left" });
-        sr.reveal(".who-we-are .image, .text-box3, .text-box4, .text-box5-cont", { delay: 500, origin: "bottom" });
-        sr.reveal(".text-box", { delay: 500, origin: "right" })
-        sr.reveal(".our-story .image", { delay: 500, origin: "top" })
+        if (window.innerWidth > 850) {
+
+            const sr = ScrollReveal({
+                delay: 500,            // Delay between elements in milliseconds
+                distance: '60px',      // Distance to start the animation (from bottom/top/left/right)
+                origin: 'bottom',      // Direction from which the animation starts ('bottom', 'top', 'left', 'right')
+                duration: 1000,        // Animation duration in milliseconds
+                easing: 'ease-out',    // Easing function
+                reset: true,
+            });
+            sr.reveal(".main-title", { delay: 500, origin: "left" });
+            sr.reveal(".who-we-are .image, .text-box3, .text-box4, .text-box5-cont", { delay: 500, origin: "bottom" });
+            sr.reveal(".text-box", { delay: 500, origin: "right" })
+            sr.reveal(".our-story .image", { delay: 500, origin: "top" })
+        }
     }, []);
 
 

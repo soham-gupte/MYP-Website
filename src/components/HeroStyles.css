@@ -52,8 +52,16 @@ body {
         width: 80%;
     }
 
+    .hero-section-text h1{
+        font-size: 2.5rem;
+    }
+
     .hero-section-text {
         padding-right: 0;
+    }
+
+    .hero-section-text p{
+        font-size: 1rem;
     }
 
     .hero-section-grid {
