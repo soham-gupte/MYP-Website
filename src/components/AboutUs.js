@@ -1,5 +1,8 @@
 import "./AboutUsStyles.css";
-import who_we_are from "./myp-who_we_are.png"
+import who_we_are_1 from "./whoweare1.jpg"
+import who_we_are_2 from "./whoweare2.jpg"
+import aboutus_1 from "./aboutus1.jpg"
+import aboutus_2 from "./aboutus2.jpg"
 import ScrollReveal from "scrollreveal";
 import { useEffect } from "react";
 
@@ -35,7 +38,7 @@ export function AboutUs() {
                     <h2 className="main-title">Who We Are</h2>
                     <div className="content">
                         <div className="image">
-                            <img src={who_we_are} alt="Who we are" />
+                            <img src={who_we_are_1} alt="Who we are" />
                         </div>
                         <div className="text-box text-box1">
                             {/* <h3>Who we are</h3><br></br>     */}
@@ -55,7 +58,7 @@ export function AboutUs() {
                             {/* <p>Mark Your Presence  has conducted seminars in colleges, which are affiliated with Mumbai University, Symbiosis University, and other private universities. Over the last year, we have registered over 25,000 new voters for the 2019 elections. We have registered voters in the 2019 Lok sabha MP elections, MLA elections in Mumbai and Delhi. Registration is only the first step of our campaign and the goal will be achieved only once we educate students at large about their right to vote and assist them. We have created a voter's manual which will help each individual understand the process of voting which includes the essential things a voter needs to do before he/she goes out to vote , and also educates the voter about his/her constituency and the role of the Member of Parliament, MLA, and Corporator. We not only register new voters but also follow up with the concerned BLO officers whenever there is a problem. On our website, the voters can track their voter ids, check if their name is on the Electoral roll, check their polling stations and also find out detailed information of their nearest election office. </p> */}
                         </div>
                         <div className="image img-1">
-                            <img src={who_we_are} alt="Who we are" />
+                            <img src={who_we_are_2} alt="Who we are" />
                         </div>
                     </div>
                     {/* <div className="media-icons">
@@ -67,7 +70,7 @@ export function AboutUs() {
                     <h2 className="main-title">Our Story</h2>
                     <div className="content">
                         <div className="image">
-                            <img src={who_we_are} alt="Our story"></img>
+                            <img src={aboutus_1} alt="Our story"></img>
                         </div>
                         <div className="text-box3">
                             <p>Mark Your Presence was founded on the pillars of change and commitment to democracy to bring about a political order that is participatory and progresssive. Chaitanya Prabhu founded the organisation in 2018 as an ode to his 100 year old grandfather’s commitment to practise the right that people of this country lay their lives for. He envisioned an organisation that would remind young people of the journey we as a nation took to make this tryst with democracy as our destiny.</p>
@@ -75,7 +78,7 @@ export function AboutUs() {
                     </div>
                     <div className="content">
                         <div className="image">
-                            <img src={who_we_are} alt="Our story"></img>
+                            <img src={aboutus_2} alt="Our story"></img>
                         </div>
                         <div className="text-box3">
                             <p>Chaitanya is passionate for the cause of strengthening Indian democracy and sees voting as a way to honour the ones who struggled for that right to vote. Chaitanya's inspiration comes from his grandfather who is 100 years old and has been voting since India gained independence. He believes that if his grandfather can go and vote in every poll so can the youth of India. So, when he learnt that most of his friends do not have a voter ID required to register their vote, the 20-year-old Chaitanya Prabhu took it upon himself to register his peers on the voters' list.</p>

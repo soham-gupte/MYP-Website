@@ -173,7 +173,7 @@
         border: 1px solid rgba(255, 255, 255, 0.2);
         border-radius: 10px;
         /* transform: translate(-80px, 50px); */
-        font-size: 1.1rem;
+        font-size: 0.6rem;
         /* margin: 0px 0; */
     }
 
@@ -184,11 +184,13 @@
 
     .content .text-box2 {
         margin-top: 400px;
+        font-size: 0.6rem;
     }
 
     .content .text-box3 {
         /* width: 10000px; */
         padding: 40px 0;
+        font-size: 0.6rem;
     }
     
 }
