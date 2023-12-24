@@ -5,6 +5,7 @@ import { AboutUs } from './components/AboutUs';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { KnowYourRight } from './components/KnowYourRight';
+import { OurProjects } from './components/OurProjects';
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
             </>
           } />
 
+          <Route path='/our-projects' element={<OurProjects/>}/>
           <Route path='/know-your-right' element={<KnowYourRight />} />
         </Routes>
       </Router>

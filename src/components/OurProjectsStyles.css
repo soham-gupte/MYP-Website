@@ -1,0 +1,37 @@
+/* OurProjectsStyles.css */
+
+/* Custom styles for the card container */
+.our-projects {
+    padding: 20px; /* Add padding around the card container */
+  }
+  
+  /* Custom styles for each card */
+  .our-proj-card {
+    margin-bottom: 20px; /* Add margin at the bottom of each card */
+  }
+  
+  /* Responsive styles for different screen sizes */
+  @media (max-width: 576px) {
+    .our-proj-card {
+      width: 100%; /* Make cards full width on small screens */
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .our-proj-card {
+      width: 100%; /* Make cards full width on medium screens */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .our-proj-card {
+      width: 48%; /* Make cards 48% width on large screens */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .our-proj-card {
+      width: 100%; /* Make cards 31% width on extra-large screens */
+    }
+  }
+  
