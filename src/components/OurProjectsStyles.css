@@ -5,11 +5,15 @@
     padding: 20px; /* Add padding around the card container */
   }
   
+  
   /* Custom styles for each card */
   .our-proj-card {
     margin-bottom: 20px; /* Add margin at the bottom of each card */
+    
   }
   
+  
+
   /* Responsive styles for different screen sizes */
   @media (max-width: 576px) {
     .our-proj-card {
